@@ -1,0 +1,28 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(bgimg.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.glass {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.box {
+    width: 30%;
+    top: 30%;
+    bottom: 30%;
+    left: 5%;
+    position: absolute;
+    padding: 1%;
+}
