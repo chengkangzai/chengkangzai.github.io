@@ -1,12 +1,13 @@
 html {
     margin: 0;
     padding: 0;
-    background: url(bgimg.JPG) no-repeat center center fixed;
+    background: url(bgimg.JPG) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
