@@ -1,4 +1,4 @@
-html {
+body {
     margin: 0;
     padding: 0;
     background: url(bgimg.JPG) no-repeat;
@@ -8,6 +8,17 @@ html {
     color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -53,11 +64,6 @@ spin {
     z-index: 99999999999;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .glass {
     background-color: rgba(255, 255, 255, 0.7)
 }
@@ -69,3 +75,10 @@ a {
     position: absolute;
     padding: 1%;
 }
+
+html,
+body {
+    height: 100%;
+}
+
+body {}
