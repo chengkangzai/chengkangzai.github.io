@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <h1>NM Clock</h1>
+    <h1>NM Quiz Clock</h1>
     <div id="clockdiv">
         <div>
             <span class="days" id="day"></span>
@@ -29,7 +29,7 @@
     <p id="demo"></p>
 
     <script>
-        var deadline = new Date("nov 28, 2019 17:00:00").getTime();
+        var deadline = new Date("aug 26, 2019 10:35:00").getTime();
 
         var x = setInterval(function() {
 
@@ -45,7 +45,7 @@
             document.getElementById("second").innerHTML = seconds;
             if (t < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "TIME UP";
+                document.getElementById("demo").innerHTML = "Event Ended Or Not available";
                 document.getElementById("day").innerHTML = '0';
                 document.getElementById("hour").innerHTML = '0';
                 document.getElementById("minute").innerHTML = '0';
