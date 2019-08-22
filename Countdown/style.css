@@ -1,3 +1,4 @@
+/*
 body {
     margin: 0;
     padding: 0;
@@ -8,4 +9,48 @@ body {
     color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-animation: colorchange 60s infinite;
+    animation: colorchange 60s infinite;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        background: rgb(175, 188, 199);
+    }
+    25% {
+        background: rgb(134, 169, 197);
+    }
+    50% {
+        background: rgb(85, 138, 182);
+    }
+    75% {
+        background: rgb(48, 124, 185);
+    }
+    100% {
+        background: rgb(0, 96, 175);
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        background: rgb(175, 188, 199);
+    }
+    25% {
+        background: rgb(134, 169, 197);
+    }
+    50% {
+        background: rgb(85, 138, 182);
+    }
+    75% {
+        background: rgb(48, 124, 185);
+    }
+    100% {
+        background: rgb(0, 96, 175);
+    }
 }
