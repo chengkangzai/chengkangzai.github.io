@@ -54,3 +54,7 @@ body {
         background: rgb(0, 96, 175);
     }
 }
+
+.jumbotron {
+    padding: 0%;
+}
