@@ -58,3 +58,46 @@ body {
 .jumbotron {
     padding: 0;
 }
+
+
+/*Pre-load */
+
+.spinner {
+    width: 80px;
+    /* Define the size */
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    /*Make it round */
+    border-top: 3px solid #f25a41;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: spin 1s infinite linear;
+    /*make it spin */
+}
+
+@keyframes
+/*Animation */
+
+spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999999999;
+}
