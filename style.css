@@ -24,6 +24,9 @@ body {
 
 /*Pre-load */
 
+
+/* Pre-load is a overlay with the most upper part and when document finish running, Jacasvript will disable the display of this layer */
+
 .spinner {
     width: 80px;
     /* Define the size */
