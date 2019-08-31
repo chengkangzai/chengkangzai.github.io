@@ -17,7 +17,7 @@ window.addEventListener('load', function() {
         alert("Chin Wei is a Adult")
     } else if (age > 60) {
         alert("Chin Wei is a Kid")
-    }*/
+    }
 
 var age = "child"
 
@@ -28,4 +28,4 @@ switch (age) {
 
     default:
         break;
-}
+}*/
