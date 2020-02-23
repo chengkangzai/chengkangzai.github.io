@@ -7,6 +7,12 @@ var companyName = url.searchParams.get('companyName');
 var SSID = url.searchParams.get('SSID');
 var password = url.searchParams.get('password');
 
+console.log(unitNumber);
+console.log(serviceNumber);
+console.log(companyName);
+console.log(SSID);
+console.log(password);
+
 GETValidation();
 
 function isEmpty(str) {
