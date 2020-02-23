@@ -51,5 +51,3 @@ function makeQRCode() {
     $("#notice").show();
     window.print();
 }
-
-https: //chengkangzai.github.io/TA/ACC/index.html?unitNumber="+$B2+"&serviceNumber="+$L2+"&companyName=Asia Pacific Unisersity Sdn. Bhd.&SSID="+$B2+"&password="+$C2
