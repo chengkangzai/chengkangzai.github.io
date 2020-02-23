@@ -44,5 +44,4 @@ function makeQRCode() {
     });
     $("#notice").show();
     window.print();
-    window.close();
 }
