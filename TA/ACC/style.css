@@ -1,0 +1,5 @@
+.border {
+    padding: 1%;
+    border: 3px solid black;
+    display: block;
+}
