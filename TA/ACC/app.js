@@ -21,14 +21,7 @@ function isEmpty(str) {
 
 function GETValidation() {
     if (isEmpty(unitNumber) || isEmpty(serviceNumber) || isEmpty(companyName) || isEmpty(SSID) || isEmpty(password)) {
-        //alert("Parameter not enough!");
-        //window.history.back();
-        alert("This page is still underdevelopment ! \n You do not pass enough parameter to this page.\n sample information will be loaded ");
-        //unitNumber = "VC-A1-10-06";
-        //serviceNumber = "TBBN011469G";
-        //companyName = "Asia Pacific Unisersity Sdn. Bhd.";
-        //SSID = "VC-A1-10-06";
-        //password = "XSQ8D2qLmJ$_";
+        alert("This page is still underdevelopment ! \n You do not pass enough parameter to this page.");
     }
     changeDomInformation();
 }
