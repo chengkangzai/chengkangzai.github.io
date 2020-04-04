@@ -1,0 +1,32 @@
+<h1>New Complaint </h1>
+<p>Hi! New Complaint Appear!</p>
+
+<table  style="width: auto;">
+    <tr>
+        <td>Problem Context </td>
+        <td>@{outputs('Get_response_details')?['body/rc884bef28906446480664125301be9b2']}</td>
+    </tr>
+    <tr>
+        <td>Location</td>
+        <td> @{outputs('Get_response_details')?['body/rc07a259164a347608c7b348625af3cd9']}</td>
+    </tr>
+    <tr>
+        <td>Unit</td>
+        <td> @{outputs('Get_response_details')?['body/r2ab48ca1fa00410bae0167b8f1b85f5a']}</td>
+    </tr>
+    <tr>
+        <td>Student Name</td>
+        <td> @{outputs('Get_response_details')?['body/rfba6ad7a00fc4bfca479a474d34a0ab4']}</td>
+    </tr>
+    <tr>
+        <td>Student Contact</td>
+        <td> @{outputs('Get_response_details')?['body/re043e84c1b6b4b25a12eedea03c7b3eb']}</td>
+    </tr>
+    <tr>
+        <td>Sent in by </td>
+        <td> @{outputs('Get_response_details')?['body/responder']}</td>
+    </tr>
+</table>
+<br>
+<a href="" >Click to view the attachment (@{items('Apply_to_each_3')['name']}) </a>
+<p>Submitted at @{outputs('Get_response_details')?['body/submitDate']}</p>
